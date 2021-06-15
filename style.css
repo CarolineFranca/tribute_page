@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000000;
+    color: #F2EDD7;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 90vw;
+    margin: auto;
+    margin-top: 40px;
+    padding: 15px;
+}
+
+header h1{
+    font-size: 4em;
+    text-align: center;    
+    font-style:italic;   
+}
+
+header h2{
+    font-style:italic;   
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+hr{
+    width: 5vw;
+    margin: auto;
+    opacity: 0.6;
+    margin-bottom: 30px;
+}
+
+.containerImage{
+    display: flex;
+    justify-content: center;
+}
+.containerImage img{    
+    width: 60vw;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+.fonteSite{
+    opacity: 0.3;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+.frase{
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 1.4em;
+    text-align: center;
+    font-style:italic;   
+}
+
+.sobre{
+    padding-top: 15px;
+    width: 87vw;
+    margin: auto;
+    padding: 20px;
+    font-size: 1.4em;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.192);
+}
+
+.sobre p{
+    padding-top: 10px;
+    
+}
+
+.sobre::first-letter{
+    font-size: 2em;
+}
+
+.playlist{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.playlist p{
+    width: 50%;
+    font-size: 1.5em;
+    font-style:italic;  
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    margin: 10px;
+    opacity: 0.5;  
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+footer label a{
+    color: rgb(55, 148, 253);
+    text-decoration: none;
+    
+}
+
+footer label a:hover{
+    color: rgb(255, 230, 0);
+}
+
+
+/* Responsive */
+
+@media screen and (max-width: 380px){   
+
+    .sobre{        
+        width: 80vw;
+    }
+
+    .playlist{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .playlist p{        
+        padding-left: 50px;
+        margin-bottom: 10px;
+    }
+
+    .playlist iframe{       
+        margin-top: 30px;
+        padding-left: 25px;
+    }
+
+}
