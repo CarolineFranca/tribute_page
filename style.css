@@ -121,7 +121,7 @@ footer label a:hover{
 
 /* Responsive */
 
-@media screen and (max-width: 380px){   
+@media screen and (max-width: 450px){   
 
     .sobre{        
         width: 80vw;
